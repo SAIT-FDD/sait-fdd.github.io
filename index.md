@@ -2,7 +2,7 @@
 (Dataset Link will be updated soon!!!)
 =============================
 
-## DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation (NeurIPS 2022)
+## DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation (NeurIPS 2022, Oral)
 Distributional shifts in photometry and texture have been extensively studied for unsupervised domain adaptation, but their counterparts in optical distortion have been largely neglected.
 We tackle the task of unsupervised domain adaptation for semantic image segmentation where unknown optical distortion exists between source and target images.
 For this, we release [*Fisheye Driving Dataset* (FDD)](TBU) that includes semantically annotated images captured by fisheye cameras (200&deg; F.O.V) at front- and rear-side of the vehicle.
