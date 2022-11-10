@@ -1,6 +1,6 @@
 
 
-# [DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation](https://openreview.net/pdf?id=6RoAxmwj0L2) [NeurIPS 2022, Oral]
+## [DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation](https://openreview.net/pdf?id=6RoAxmwj0L2) [NeurIPS 2022, Oral]
 
 ### **Note: Dataset Link will be updated soon!**
 
@@ -60,3 +60,18 @@ We also evaluate the effect of our distortion-aware domain adaptation (DaDA), as
 [8] Mei, Ke, et al. "Instance adaptive self-training for unsupervised domain adaptation." European conference on computer vision. Springer, Cham, 2020. \
 [9] Pan, Fei, et al. "Unsupervised intra-domain adaptation for semantic segmentation through self-supervision." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020. \
 [10] Zhang, Pan, et al. "Prototypical pseudo label denoising and target structure learning for domain adaptive semantic segmentation." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2021.
+
+## Citation
+
+If you like our work and find our dataset useful, please cite our [paper](https://openreview.net/pdf?id=6RoAxmwj0L2):
+
+<pre><code>
+@inproceedings{
+  jang2022dada,
+  title={Da{DA}: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation},
+  author={Sujin Jang and Joohan Na and Dokwan Oh},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2022},
+  url={https://openreview.net/forum?id=6RoAxmwj0L2}
+}
+</code></pre>
