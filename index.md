@@ -1,14 +1,17 @@
 
-(Dataset Link will be updated soon!!!)
-=============================
 
-## DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation (NeurIPS 2022, Oral)
+# [DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation](https://openreview.net/pdf?id=6RoAxmwj0L2) [NeurIPS 2022, Oral]
+
+### **Note: Dataset Link will be updated soon!**
+
 Distributional shifts in photometry and texture have been extensively studied for unsupervised domain adaptation, but their counterparts in optical distortion have been largely neglected.
 We tackle the task of unsupervised domain adaptation for semantic image segmentation where unknown optical distortion exists between source and target images.
 For this, we release [*Fisheye Driving Dataset* (FDD)](TBU) that includes semantically annotated images captured by fisheye cameras (200&deg; F.O.V) at front- and rear-side of the vehicle.
 We also introduce [*CityscapesFishEye Dataset*](TBU) which consists of distorted images that are generated from the Cityscapes dataset [1] based on the equidistance fisheye camera projection model [2]. \
 With these datasets, we newly introduce unsupervised domain adaptation tasks involving not only visual domain shifts (e.g., texture, lighting, contrast) but also geometric deformation (e.g., radial distortion) between source and target images.
-Below we evaluate our [*Distortion-aware Domain Adaptation (DaDA)*](TBU) framework that is capable of modeling domain shifts in geometric deformation based on a relative distortion learning (RDL) method.
+![image info](./figures/task.jpg)
+
+Below we evaluate our [*Distortion-aware Domain Adaptation (DaDA)*](https://openreview.net/pdf?id=6RoAxmwj0L2) framework that is capable of modeling domain shifts in geometric deformation based on a relative distortion learning (RDL) method.
 We hope our work provides a solid baseline and new perspectives on distortion-aware domain adaptation.
 
 ## Comparisons with the baseline adaptation methods
@@ -37,11 +40,11 @@ We also evaluate the effect of our distortion-aware domain adaptation (DaDA), as
 | |Cityscapes[1] &rarr; Woodscape[3]|GTAV[4] &rarr; Woodscape[3]|Cityscapes[1] &rarr; [FDD](TBU)|GTAV[4] &rarr; [FDD](TBU)|
 |:-:|:-:|:-:|:-:|:-:|
 |**SSL Method**|**mIoU(%)**|**mIoU(%)**|**mIoU(%)**|**mIoU(%)**|
-|IAST[8]      | 47.00     | 38.83     | 39.60     | 37.47     |
+|IAST [8]      | 47.00     | 38.83     | 39.60     | 37.47     |
 |IAST+DaDA    |   53.82   | **40.75** |   44.46   |   40.06   |
-|IntraDA[9]   | 48.92     | 36.10     | 40.36     | 38.61     |
+|IntraDA [9]   | 48.92     | 36.10     | 40.36     | 38.61     |
 |IntraDA+DaDA |   53.24   |   39.85   | **45.28** | **42.10** |
-|ProDA[10]    | 50.69     | 34.44     | 39.72     | 35.97     |
+|ProDA [10]    | 50.69     | 34.44     | 39.72     | 35.97     |
 |ProDA+DaDA   | **54.83** |   35.75   |   42.14   |   37.09   |
 
 ## References
