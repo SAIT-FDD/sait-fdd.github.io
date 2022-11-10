@@ -1,6 +1,6 @@
----
-[DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation](https://openreview.net/pdf?id=6RoAxmwj0L2) [NeurIPS 2022, Oral]
----
+
+## [DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation](https://openreview.net/pdf?id=6RoAxmwj0L2) [NeurIPS 2022, Oral]
+
 
 **Note: Dataset Link will be updated soon!**
 
