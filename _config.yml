@@ -1,4 +1,11 @@
 title: Fisheye Driving Dataset (FDD)
 description: DaDA: Distortion-aware Domain Adaptation for Unsupervised Semantic Segmentation [NeurIPS 2022, Oral]
 url: https://sait-fdd.github.io/
-google_site_verification: _nVdOKyv00hCnRzQvi5IDn47T7MspWyhkC0MTBzflVI
+head:
+- tag: meta
+  var:
+  - key: name
+    value: google-site-verification
+  - key: content
+    value: _nVdOKyv00hCnRzQvi5IDn47T7MspWyhkC0MTBzflVI
+    
