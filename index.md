@@ -62,6 +62,10 @@ If you like our work and find our dataset useful, please cite our [paper](https:
 	year={2022}}
 ```
 
+## Authors
+
+[Sujin Jang (장수진)](https://sujinjang.github.io/), [Joohan Na (나주한)](https://linkedin.com/in/najoohan), [Dokwan Oh (오도관)](https://linkedin.com/in/dokwan-oh-18a26572)
+
 ## References
 
 [1] Cordts, Marius, et al. "The cityscapes dataset." CVPR Workshop on the Future of Datasets in Vision. Vol. 2. sn, 2015. \
