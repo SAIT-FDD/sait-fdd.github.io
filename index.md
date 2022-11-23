@@ -55,8 +55,8 @@ We also evaluate the effect of our distortion-aware domain adaptation (DaDA), as
 ## Dataset Organization
 
 Below folder structure outlines the contents of Distortion-aware Domain Adaptation Benchmarks datasets.
-We provide the complete set of the FDD dataset.
-However, we only provide information of classes and train/val file lists for other public datasets and you should download those datasets individually ([Cityscapes](https://www.cityscapes-dataset.com/), [GTAV](https://download.visinf.tu-darmstadt.de/data/from_games/index.html), [Woodscape](https://github.com/valeoai/WoodScape)).
+We provide the complete set of the [FDD dataset](https://forms.gle/GfsbMgE9wwocasas8).
+However, we only provide information of classes and train/val file lists for other public datasets and you should download them individually ([Woodscape](https://github.com/valeoai/WoodScape), [Cityscapes](https://www.cityscapes-dataset.com/), [GTAV](https://download.visinf.tu-darmstadt.de/data/from_games/index.html)).
 
 ```
 
