@@ -8,7 +8,7 @@ Distributional shifts in photometry and texture have been extensively studied fo
 We tackle the task of unsupervised domain adaptation for semantic image segmentation where unknown optical distortion exists between source and target images.
 For this, we release [*Fisheye Driving Dataset* (FDD)](https://forms.gle/GfsbMgE9wwocasas8) that includes semantically annotated images captured by fisheye cameras (200&deg; F.O.V) at front- and rear-side of the vehicle.
 <p align="center">
-    <img src="./figures/fdd_preview.png" alt="Image" width="900"/>
+    <img src="./figures/fdd_preview.PNG" alt="Image" width="900"/>
 </p>
 
 With the FDD and other public datasets, we newly introduce unsupervised domain adaptation tasks involving not only visual domain shifts (e.g., texture, lighting, contrast) but also geometric deformation (e.g., radial distortion) between source and target images.
